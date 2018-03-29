@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  additionner(a: number, b: number): number {
+    return a + b;
+  }
 }
